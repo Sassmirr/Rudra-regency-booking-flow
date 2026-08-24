@@ -31,7 +31,7 @@ const hotelConfig = {
   city: "Ahmedabad",
   address: "Shanti Chambers, Ashram Road, Opp. Dinesh Hall, Navrangpura, Ahmedabad – 380009",
   phone: "+91 77780 18655", // verified — matches the hotel's own site and NAP data
-  email: "sgajjar3216@gmail.com", // verified
+  email: "hotelrudraregency@gmail.com", // verified
   logoUrl: "https://hotelrudraregency.in/img/new-images/logo/logo.png",
   // NOT a real, confirmed WhatsApp-enabled number. The live site's WhatsApp
   // button currently points at a number that doesn't appear to be reachable
@@ -117,7 +117,7 @@ ${guest.specialRequests || "None"}
     // 1. Get your free Access Key from https://web3forms.com/ (enter sgajjar3216@gmail.com on their site)
     // 2. Paste the key below:
     const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
-    
+
     try {
       await fetch("https://api.web3forms.com/submit", {
         method: "POST",
